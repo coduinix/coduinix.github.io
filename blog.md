@@ -1,8 +1,6 @@
 ---
-title: What When How & Why ?
+title: Blog posts
 layout: page
-feature_text: Feature TEXT
-image: https://c2.staticflickr.com/6/5811/20978819393_f156bdba7b_z.jpg
 ---
 <main class="main container">
     <div class="content">
