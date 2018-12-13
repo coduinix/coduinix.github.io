@@ -6,5 +6,4 @@ layout: page
     <div class="content">
         {% include post-list.html %}
     </div>
-    {% include site-aside.html %}
 </main>

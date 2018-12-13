@@ -1,15 +1,20 @@
 title: Coduinix
-description: Some of my thoughts on programming
+description: Me and the art of coding
 name: Coduinix
 
 exclude:
   - README.md
+  - .idea
+  - notes.txt
+  - Gemfile
+  - Gemfile.lock
 
 # Installed gems
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-feed
 
 remote_theme: daviddarnes/alembic
@@ -47,12 +52,12 @@ navigation_footer:
 
 # Appears in sidebar. Set the urls then uncomment and comment out as desired
 social_links:
-  - Twitter: https://twitter.com/coduinix
-  - GitHub: https://github.com/coduinix
-  - RSS: /feed.xml
+  Twitter: https://twitter.com/coduinix
+  GitHub: https://github.com/coduinix
+  RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
-  Twitter: "#0d94e7"
+#  Twitter: "#0d94e7"
   facebook: "#3B5998"
   LinkedIn: "#0077B5"
   #  Google+: "#DC4E41"
