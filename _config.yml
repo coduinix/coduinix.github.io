@@ -1,4 +1,66 @@
-theme: jekyll-theme-slate
-title: Coduinix' blog
-description: Blog posts by Coduinix
+title: Coduinix
+description: Me and the art of coding
 name: Coduinix
+
+exclude:
+  - README.md
+  - .idea
+  - Gemfile
+  - Gemfile.lock
+
+# Installed gems
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+
+remote_theme: daviddarnes/alembic
+css_inline: false
+
+# Gem settings
+twitter:
+  username: coduinix
+author:
+  twitter: coduinix
+social:
+  name: Coduinix
+  links:
+    - https://twitter.com/coduinix
+    - https://github.com/coduinix
+
+# Jekyll settings
+sass:
+  style: compressed # Style compression
+
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: Europe/Amsterdam # Timezone for blog posts and alike
+
+
+# Site navigation
+navigation_header:
+  Blog: /
+  Categories: /categories
+  About: /about
+
+navigation_footer:
+  Created by Coduinix: https://coduinix.github.com
+
+# Appears in sidebar. Set the urls then uncomment and comment out as desired
+social_links:
+  Twitter: https://twitter.com/coduinix
+  GitHub: https://github.com/coduinix
+  RSS: /feed.xml
+
+sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
+#  Twitter: "#0d94e7"
+  facebook: "#3B5998"
+  LinkedIn: "#0077B5"
+  #  Google+: "#DC4E41"
+  # Pinterest: "#BD081C"
+  # tumblr: "#36465D"
+  # Reddit: "#FF4500"
+  # Hacker News: "#ff6600"
+# Designer News: "#2D72D9"
