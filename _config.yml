@@ -41,8 +41,7 @@ timezone: Europe/Amsterdam # Timezone for blog posts and alike
 
 # Site navigation
 navigation_header:
-  Home: /
-  Blog: /blog
+  Blog: /
   Categories: /categories
   About: /about
 
