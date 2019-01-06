@@ -5,7 +5,6 @@ name: Coduinix
 exclude:
   - README.md
   - .idea
-  - notes.txt
   - Gemfile
   - Gemfile.lock
 
@@ -18,7 +17,7 @@ plugins:
   - jekyll-feed
 
 remote_theme: daviddarnes/alembic
-css_inline: true
+css_inline: false
 
 # Gem settings
 twitter:
