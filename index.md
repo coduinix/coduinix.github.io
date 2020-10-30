@@ -1,9 +1,6 @@
 ---
-title: Blog posts
-layout: page
+title: Coduinix Home
+layout: home
+author_profile: true
 ---
-<main class="main container">
-    <div class="content">
-        {% include post-list.html %}
-    </div>
-</main>
+Hello world

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: About me
 ---
 I'm a programmer with over 15 years experience with Java. 
