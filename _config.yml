@@ -16,7 +16,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
 
-remote_theme: daviddarnes/alembic
+remote_theme: mmistakes/minimal-mistakes@4.20.2
 css_inline: false
 
 # Gem settings
@@ -64,4 +64,3 @@ sharing_links: # Appear at the bottom of single blog posts, uncomment and commen
   # Reddit: "#FF4500"
   # Hacker News: "#ff6600"
 # Designer News: "#2D72D9"
-theme: jekyll-theme-midnight
