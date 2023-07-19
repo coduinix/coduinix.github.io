@@ -18,7 +18,13 @@ plugins:
   - jekyll-include-cache
 
 remote_theme: mmistakes/minimal-mistakes@4.20.2
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "contrast"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/coduinix"
 
 css_inline: false
 
@@ -55,19 +61,6 @@ paginate: 5
 paginate_path: /page:num/
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: Europe/Amsterdam # Timezone for blog posts and alike
-
-
-# Site navigation
-navigation_header:
-  Blog: /
-  Categories: /categories
-  About: /about
-
-navigation_footer:
-  Created by Coduinix: https://coduinix.github.com
-
-twitter:
-  username: coduinix
 
 # Defaults
 defaults:

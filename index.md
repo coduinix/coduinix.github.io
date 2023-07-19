@@ -2,4 +2,6 @@
 title: Coduinix Home
 layout: home
 ---
-Hello world
+`coduinix.com` is the personal website of Hinse ter Schuur.
+
+[More about me](about.md)
