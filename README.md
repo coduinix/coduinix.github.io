@@ -32,7 +32,18 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/coduinix/coduinix.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-Currently I'm using the [alembic theme](https://github.com/daviddarnes/alembic), inspired by https://github.com/bawejakunal/bawejakunal.github.io 
+Currently I'm using the [alembic theme](https://github.com/daviddarnes/alembic), inspired by https://github.com/bawejakunal/bawejakunal.github.io
+
+### Building site locally
+Make sure dependencies are installed:
+```shell
+bundle install
+```
+
+Run Jekyll site:
+```shell
+bundle exec jekyll serve
+```
 
 ### Support or Contact
 
