@@ -59,7 +59,7 @@ social:
 sass:
   style: compressed # Style compression
 
-permalink: /:categories/:title
+permalink: /:categories/:year/:month/:day/:title
 paginate: 5
 paginate_path: /page:num/
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
@@ -73,8 +73,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
-      comments: true
+      comments: false
       share: true
-      related: true
+      related: false

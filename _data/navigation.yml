@@ -1,4 +1,6 @@
 main:
+  - title: "Blog"
+    url: "/blog"
   - title: "Talks"
     url: "/talks"
   - title: "Articles"
