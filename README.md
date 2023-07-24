@@ -45,6 +45,11 @@ Run Jekyll site:
 bundle exec jekyll serve
 ```
 
+or to run the Jekyll site including the draft blog posts:
+```shell
+bundle exec jekyll serve --draft
+```
+
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

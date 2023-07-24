@@ -1,5 +1,5 @@
 ---
-title: (Re)discovering the mechanics of map
+title: Reduce unnecessary "ceremony" with the map method 
 excerpt: 
   The `map` function on Streams and Optionals is a concise way to transform the items they contain, without worrying about the mechanics of the "container" type.
 tags:
