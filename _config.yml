@@ -79,3 +79,6 @@ defaults:
       comments: false
       share: true
       related: false
+
+include:
+  - "_pages"

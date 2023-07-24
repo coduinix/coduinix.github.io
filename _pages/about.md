@@ -2,6 +2,7 @@
 layout: single
 title: About me
 author_profile: true
+permalink: /about
 ---
 I'm a Java/Scala developer with a passion for clean code and software craftmanship. 
 In my day-to-day job I work as a consultant for [SDB Professionals](https://sdbjava.nl/).

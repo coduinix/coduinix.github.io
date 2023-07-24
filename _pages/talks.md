@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Talks
+permalink: /talks
 ---
 
 ## 2023

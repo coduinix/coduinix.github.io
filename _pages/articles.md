@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Articles
+permalink: /articles
 ---
 
 ## 2018
