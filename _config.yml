@@ -55,13 +55,14 @@ social:
     - https://twitter.com/coduinix
     - https://github.com/coduinix
 
+tag_archive:
+  path: /tags/
+
 # Jekyll settings
 sass:
   style: compressed # Style compression
 
 permalink: /:categories/:year/:month/:day/:title
-paginate: 5
-paginate_path: /page:num/
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: Europe/Amsterdam # Timezone for blog posts and alike
 
