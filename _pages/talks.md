@@ -4,6 +4,12 @@ title: Talks
 permalink: /talks
 ---
 
+## 2024
+
+| Date       | Event            | Talk                                                                                               |
+|------------|------------------|----------------------------------------------------------------------------------------------------|
+| 2024-05-14 | JCON Europe 2024 | [It takes more than LGTM to do a proper Code Review](https://jconeurope2024.sched.com/event/1YwRj) |
+
 ## 2023
 
 | Date       | Event         | Talk                                               |
