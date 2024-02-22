@@ -26,6 +26,11 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/coduinix"
 
+analytics:
+  provider: "google-universal"
+  google:
+    tracking_id: "G-19Y7T9TVQW"
+
 css_inline: false
 
 # Gem settings
