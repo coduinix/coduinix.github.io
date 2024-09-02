@@ -6,15 +6,17 @@ permalink: /talks
 
 ## 2024
 
-| Date       | Event            | Talk                                                                                               |
-|------------|------------------|----------------------------------------------------------------------------------------------------|
-| 2024-05-14 | JCON Europe 2024 | [It takes more than LGTM to do a proper Code Review](https://jconeurope2024.sched.com/event/1YwRj) |
+| Date       | Event                                             | Talk                                                                                               |
+|------------|---------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| 2024-10-15 | [JavaCro'24](https://2024.javacro.hr/eng)         | It takes more than LGTM to do a proper Code Review                                                 |
+| 2024-10-15 | [JavaCro'24](https://2024.javacro.hr/eng)         | Mikado and the Art of Refactoring                                                                  |
+| 2024-05-14 | [JCON Europe 2024](https://2024.europe.jcon.one/) | [It takes more than LGTM to do a proper Code Review](https://jconeurope2024.sched.com/event/1YwRj) |
 
 ## 2023
 
-| Date       | Event         | Talk                                               |
-|------------|---------------|----------------------------------------------------|
-| 2023-03-22 | JavaLand 2023 | It takes more than LGTM to do a proper Code Review |
+| Date       | Event                                                      | Talk                                               |
+|------------|------------------------------------------------------------|----------------------------------------------------|
+| 2023-03-22 | [JavaLand 2023](https://www.javaland.eu/en/javaland-2023/) | It takes more than LGTM to do a proper Code Review |
 
 ## 2020
 
