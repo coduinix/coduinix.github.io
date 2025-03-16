@@ -4,6 +4,12 @@ title: Talks
 permalink: /talks
 ---
 
+## 2025
+
+| Date       | Event        | Talk                                                                                               |
+|------------|--------------|----------------------------------------------------------------------------------------------------|
+| 2025-04-02 | RotterdamJUG | [Level Up Your Java Streams with Gatherers](https://www.meetup.com/rotterdamjug/events/306643189/) |
+
 ## 2024
 
 | Date       | Event                                             | Talk                                                                                               |
