@@ -8,11 +8,11 @@ header:
   caption: JCON Europe 2024
   actions:
     - label: "Blog"
-      url: "/blog/"
+      url: "/blog"
     - label: "Talks"
-      url: "/talks/"
+      url: "/talks"
     - label: "Articles"
-      url: "/articles/"
+      url: "/articles"
 ---
 `coduinix.com` is the personal website of Hinse ter Schuur.
 
