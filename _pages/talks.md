@@ -6,11 +6,12 @@ permalink: /talks
 
 ## 2025
 
-| Date       | Event                | Talk                                                                                                                               |
-|------------|----------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| 2025-05-22 | Amsterdam JUG meetup | [Level Up Your Java Streams with Gatherers](https://www.meetup.com/amsterdam-java-user-group/events/307455068/)                    |
-| 2025-05-15 | RISA IT              | [Level Up Your Java Streams with Gatherers](https://www.meetup.com/techarena-the-it-meetup-community/events/306951376/) (in Dutch) |
-| 2025-04-02 | RotterdamJUG         | [Level Up Your Java Streams with Gatherers](https://www.meetup.com/rotterdamjug/events/306643189/)                                 |
+| Date       | Event                  | Talk                                                                                                                               |
+|------------|------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| 2025-06-19 | Voxxed Days Luxembourg | [Level Up Your Java Streams with Gatherers](https://mobile.devoxx.com/events/voxxedlu2025/talks/1316/details)                      |
+| 2025-05-22 | Amsterdam JUG meetup   | [Level Up Your Java Streams with Gatherers](https://www.meetup.com/amsterdam-java-user-group/events/307455068/)                    |
+| 2025-05-15 | TechArena Meetup       | [Level Up Your Java Streams with Gatherers](https://www.meetup.com/techarena-the-it-meetup-community/events/306951376/) (in Dutch) |
+| 2025-04-02 | RotterdamJUG           | [Level Up Your Java Streams with Gatherers](https://www.meetup.com/rotterdamjug/events/306643189/)                                 |
 
 ## 2024
 
