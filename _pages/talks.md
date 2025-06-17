@@ -9,6 +9,7 @@ permalink: /talks
 | Date       | Event                  | Talk                                                                                                                               |
 |------------|------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | 2025-11-07 | Øredev 2025            | [Level Up Your Java Streams with Gatherers](https://oredev.org/program/ea58b539-f121-4668-9a26-9d2717793e86)                       |
+| 2025-09-27 | Voxxed Days Crete      | [Level Up Your Java Streams with Gatherers](https://crete.voxxeddays.com/talk/?id=2632)                                            |
 | 2025-06-19 | Voxxed Days Luxembourg | [Level Up Your Java Streams with Gatherers](https://mobile.devoxx.com/events/voxxedlu2025/talks/1316/details)                      |
 | 2025-05-22 | Amsterdam JUG meetup   | [Level Up Your Java Streams with Gatherers](https://www.meetup.com/amsterdam-java-user-group/events/307455068/)                    |
 | 2025-05-15 | TechArena Meetup       | [Level Up Your Java Streams with Gatherers](https://www.meetup.com/techarena-the-it-meetup-community/events/306951376/) (in Dutch) |
