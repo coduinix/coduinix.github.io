@@ -34,20 +34,15 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Currently, I'm using the [minimal-mistakes theme](https://mmistakes.github.io/minimal-mistakes/).
 
-### Building site locally
-Make sure dependencies are installed:
-```shell
-bundle install
-```
+### Run site locally
+Execute to run Jekyll with drafts and livereload enabled in a docker container:
 
-Run Jekyll site:
 ```shell
-bundle exec jekyll serve
-```
-
-or to run the Jekyll site including the draft blog posts:
-```shell
-bundle exec jekyll serve --draft
+docker run --rm \
+  --volume="$PWD:/srv/jekyll:Z" \
+  --publish 4000:4000 --publish 35729:35729 \
+  jekyll/jekyll \
+  jekyll serve --draft --livereload
 ```
 
 ### Support or Contact
