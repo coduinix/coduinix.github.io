@@ -8,6 +8,7 @@ permalink: /talks
 
 | Date       | Event                                      | Talk                                                                                                                     |
 |------------|--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 2025-11-27 | ArnhemJUG meetup                           | [Level Up Your Java Streams with Gatherers](https://www.meetup.com/arnhemjug/events/311781794)                           |
 | 2025-11-07 | Øredev 2025                                | [Level Up Your Java Streams with Gatherers](https://oredev.org/program/ea58b539-f121-4668-9a26-9d2717793e86)             |
 | 2025-10-13 | JavaCro'25                                 | [Level Up Your Java Streams with Gatherers](https://2025.javacro.hr/eng/Agenda)                                          |
 | 2025-10-04 | (Internal) SDB Bilbao SCRUM Gathering 2025 | Level Up Your Java Streams with Gatherers                                                                                |
