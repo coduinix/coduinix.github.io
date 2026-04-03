@@ -6,9 +6,10 @@ permalink: /talks
 
 ## 2026
 
-| Date       | Event                                      | Talk                                                                                                                     |
-|------------|--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| 2026-02-04 | Jfokus                                     | [Level Up Your Java Streams with Gatherers](https://www.jfokus.se/talks.html?showid=2819)                                |
+| Date       | Event  | Talk                                                                                      |
+|------------|--------|-------------------------------------------------------------------------------------------|
+| 2026-06-03 | jPrime | Never a Null Moment with JSpecify                                                         |
+| 2026-02-04 | Jfokus | [Level Up Your Java Streams with Gatherers](https://www.jfokus.se/talks.html?showid=2819) |
 
 ## 2025
 
