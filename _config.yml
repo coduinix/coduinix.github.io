@@ -68,6 +68,10 @@ permalink: /:categories/:year/:month/:day/:title
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: Europe/Amsterdam # Timezone for blog posts and alike
 
+collections:
+  talks:
+    output: true
+
 # Defaults
 defaults:
   # _posts
@@ -81,6 +85,10 @@ defaults:
       comments: false
       share: true
       related: false
-
+  - scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: "talk"
 include:
   - "_pages"
