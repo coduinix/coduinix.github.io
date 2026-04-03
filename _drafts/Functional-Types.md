@@ -2,6 +2,8 @@
 title: Functional Types
 excerpt: Types can provide a safety net by making illegal states unrepresentable in code. 
   When applied correctly it can save a bunch of (unit) tests too.
+tags:
+  - java
 ---
 
 I've been using JAVA classes and objects throughout my whole career as a developer.
