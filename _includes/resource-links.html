@@ -1,0 +1,14 @@
+{% comment %} include expects `resources` array with items: {type: 'video'|'slides', url: '...'} {% endcomment %}
+<ul class="resources">
+  {% for r in include.resources %}
+    <li class="resource resource--{{ r.type }}">
+      {% if r.type == 'video' %}
+        <a href="{{ r.url }}" target="_blank" rel="noopener">🎬 <span class="sr-only">video</span></a>
+      {% elsif r.type == 'slides' %}
+        <a href="{{ r.url }}" target="_blank" rel="noopener">📑 <span class="sr-only">slides</span></a>
+      {% else %}
+        <a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.type }}</a>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
