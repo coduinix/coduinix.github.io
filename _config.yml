@@ -71,6 +71,8 @@ timezone: Europe/Amsterdam # Timezone for blog posts and alike
 collections:
   talks:
     output: true
+  events:
+    output: true
 
 # Defaults
 defaults:
