@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Talks
+title: Sessions
 permalink: /talks
 ---
 
