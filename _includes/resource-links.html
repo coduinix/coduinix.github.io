@@ -3,11 +3,11 @@
   {% for r in include.resources %}
     <span class="resource resource--{{ r.type }}" style="margin-right: 0.2em;">
       {% if r.type == 'video' %}
-        <a href="{{ r.url }}" target="_blank" rel="noopener"><i class="fas fa-video" aria-hidden="true"></i><span class="sr-only">video</span></a>
+        <a href="{{ r.url }}" target="_blank" rel="noopener" title="Video"><i class="fas fa-video" aria-hidden="true"></i><span class="sr-only">video</span></a>
       {% elsif r.type == 'slides' %}
-        <a href="{{ r.url }}" target="_blank" rel="noopener"><i class="fab fa-slideshare" aria-hidden="true"></i><span class="sr-only">slides</span></a>
+        <a href="{{ r.url }}" target="_blank" rel="noopener" title="Slides"><i class="fab fa-slideshare" aria-hidden="true"></i><span class="sr-only">slides</span></a>
       {% else %}
-        <a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.type }}</a>
+        <a href="{{ r.url }}" target="_blank" rel="noopener" title="{{ r.type }}">{{ r.type }}</a>
       {% endif %}
     </span>
   {% endfor %}
