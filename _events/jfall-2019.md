@@ -1,6 +1,7 @@
 ---
 title: JFall 2019
 start_date: 2019-10-31
+location: Ede, The Netherlands
 talks:
   - id: mikado
     resources:

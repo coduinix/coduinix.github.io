@@ -1,6 +1,7 @@
 ---
 title: IT Development Café Amsterdam
 start_date: 2019-06-18
+location: Amsterdam, The Netherlands
 talks:
   - id: practical-security
     resources:
