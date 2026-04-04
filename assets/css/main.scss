@@ -7,8 +7,10 @@
 // Sessionize-inspired theme customization
 
 // 1. Core overrides
-$background-color: #f0f5fa; // Very light sky blue background
-$primary-color: #2d5db1; // Sessionize brand blue
+$primary-color: #5887b6; // Sessionize brand blue
+//$background-color: #f0f5fa; // Very light sky blue background
+$background-color: lighten($primary-color, 40%); // Very light sky blue background
+$masthead-background-color: darken($primary-color, 30%); // Darker blue navbar
 $link-color: #007bff;
 $text-color: #3e4b5b;
 $heading-color: #1e2b3b;
@@ -24,7 +26,7 @@ body {
 }
 
 .masthead {
-  background-color: darken($primary-color, 10%); // Darker blue navbar
+  background-color: $masthead-background-color;
   border-bottom: 2px solid rgba($primary-color, 0.2);
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   width: 100%;
@@ -142,6 +144,10 @@ a {
   &:last-child {
     border-bottom: none;
   }
+}
+
+.archive__item-excerpt {
+  font-size: 1em;
 }
 
 // Table of contents
