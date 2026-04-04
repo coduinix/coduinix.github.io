@@ -4,7 +4,8 @@ title: Events
 permalink: /events
 ---
 
-{% for event in site.events %}
+{% assign sorted_events = site.events | sort: 'start_date' | reverse %}
+{% for event in sorted_events %}
   <section class="event-entry">
     <h2><a id="{{event.slug}}"></a>{{ event.title }}</h2>
     <p class="event-dates">
