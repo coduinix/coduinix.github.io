@@ -18,7 +18,7 @@ plugins:
   - jekyll-include-cache
 
 remote_theme: mmistakes/minimal-mistakes@4.24.0
-minimal_mistakes_skin: "contrast"
+minimal_mistakes_skin: "air"
 
 footer:
   links:
@@ -31,7 +31,7 @@ analytics:
   google:
     tracking_id: "G-19Y7T9TVQW"
 
-css_inline: false
+css_inline: true
 
 # Gem settings
 twitter:
