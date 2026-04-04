@@ -3,6 +3,8 @@ main:
     url: "/blog"
   - title: "Talks"
     url: "/talks"
+  - title: "Events"
+    url: "/events"
   - title: "Articles"
     url: "/articles"
   - title: "About me"
