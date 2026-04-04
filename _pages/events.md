@@ -1,16 +1,26 @@
 ---
 layout: single
+classes: wide
 title: Events
 permalink: /events
 ---
 
+<div class="entries-list">
+
 {% assign sorted_events = site.events | sort: 'start_date' | reverse %}
 {% for event in sorted_events %}
-  <section class="event-entry">
+  <div class="list__item">
     <h2><a id="{{event.slug}}"></a>{{ event.title }}</h2>
-    <p class="event-dates">
+    <p class="page__meta">
       {% if event.start_date %}
-        {{ event.start_date }}{% if event.end_date and event.end_date != event.start_date %} – {{ event.end_date }}{% endif %}
+        <span class="page__meta-date">
+        <i class="fas fa-calendar" aria-hidden="true"></i> {{ event.start_date }}{% if event.end_date and event.end_date != event.start_date %} – {{ event.end_date }}{% endif %}
+        </span>
+      {% endif %}
+      {% if event.location %}
+        <span class="page__meta-location">
+        &nbsp; <i class="fas fa-map-pin" aria-hidden="true"></i> {{ event.location }}
+        </span>
       {% endif %}
     </p>
 
@@ -35,5 +45,6 @@ permalink: /events
         {% endfor %}
       </ul>
     {% endif %}
-  </section>
+  </div>
 {% endfor %}
+</div>
