@@ -6,7 +6,7 @@ permalink: /talks
 
 {% for talk in site.talks %}
   <article class="talk-entry">
-    <h2><a href="{{ talk.url }}">{{ talk.title }}</a></h2>
+    <h2><a id="{{talk.slug}}"></a><a href="{{ talk.url }}">{{ talk.title }}</a></h2>
     <div class="abstract">{{ talk.content | markdownify }}</div>
 
     <h3>Presented at</h3>
@@ -24,7 +24,7 @@ permalink: /talks
 
           {% if match %}
             <li>
-              <a href="{{ event.url }}">{{ event.title }}</a>
+              <a href="/events#{{ event.slug }}">{{ event.title }}</a>
               {% if et.resources %}
                 {% include resource-links.html resources=et.resources %}
               {% endif %}
