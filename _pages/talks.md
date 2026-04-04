@@ -1,12 +1,13 @@
 ---
 layout: single
+classes: wide
 title: Sessions
 permalink: /talks
 ---
 
 {% for talk in site.talks %}
   <article class="talk-entry">
-    <h2><a id="{{talk.slug}}"></a><a href="{{ talk.url }}">{{ talk.title }}</a></h2>
+    <h2><a id="{{talk.slug}}"></a>{{ talk.title }}</h2>
     <div class="abstract">{{ talk.content | markdownify }}</div>
 
     <h3>Presented at</h3>
