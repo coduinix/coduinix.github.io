@@ -12,7 +12,8 @@ permalink: /talks
     <h3>Presented at</h3>
     <ul>
       {% assign found_event = false %}
-      {% for event in site.events %}
+      {% assign sorted_events = site.events | sort: 'start_date' | reverse %}
+      {% for event in sorted_events %}
         {% for et in event.talks %}
           {% assign talk_id = et.id | default: et %}
 
