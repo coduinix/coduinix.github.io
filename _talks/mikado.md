@@ -1,5 +1,6 @@
 ---
 title: Mikado and the Art of Refactoring
+id: mikado
 ---
 Do you know this feeling? 
 Still struggling with a big refactoring… you promised your team that it would be finished within a day.
