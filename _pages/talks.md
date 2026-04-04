@@ -16,10 +16,9 @@ permalink: /talks
         {% for et in event.talks %}
           {% assign talk_id = et.id | default: et %}
 
+          {% assign talk_short_id = talk.id | split: "/" | last %}
           {% assign match = false %}
-          {% if talk.id and talk.id == talk_id %}
-            {% assign match = true %}
-          {% elsif talk.title | slugify == talk_id %}
+          {% if talk_short_id == talk_id %}
             {% assign match = true %}
           {% endif %}
 
