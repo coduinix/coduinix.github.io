@@ -24,14 +24,44 @@ body {
 }
 
 .masthead {
-  background-color: #fff;
-  border-bottom: 2px solid rgba($primary-color, 0.1);
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  background-color: darken($primary-color, 10%); // Darker blue navbar
+  border-bottom: 2px solid rgba($primary-color, 0.2);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 100%;
+
+  .greedy-nav {
+    background-color: transparent; // Remove weird grey background
+  }
   
   .site-title {
-    color: $primary-color;
+    color: #fff; // White title for better contrast
     font-weight: bold;
     font-family: $serif-font;
+    
+    &:hover {
+      color: rgba(255,255,255,0.8);
+      text-decoration: none;
+    }
+  }
+
+  .masthead__menu-item {
+    a {
+      color: rgba(255,255,255,0.9);
+      font-weight: 500;
+      
+      &:hover {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .navicon {
+    background: #fff;
+    
+    &:before, &:after {
+      background: #fff;
+    }
   }
 }
 
@@ -51,17 +81,23 @@ a {
   }
 }
 
-// Sidebar as a card
+// Sidebar
 .sidebar {
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  padding: 1.5rem;
-  border: 1px solid rgba($primary-color, 0.05);
+  background-color: transparent; // No more card-like block
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0 1rem 0 0;
+  border: none;
   
   .author__name {
     font-family: $serif-font;
     color: $primary-color;
+  }
+
+  // Ensure sidebar content looks good as floating text
+  .author__content {
+    font-size: 0.9rem;
+    line-height: 1.4;
   }
 }
 
@@ -81,7 +117,12 @@ a {
 }
 
 // Main content container styling
-.page__inner-wrap {
+.page__inner-wrap,
+.layout--posts .archive,
+.layout--tags .archive,
+.layout--categories .archive,
+.layout--collection .archive,
+.layout--splash .page__content {
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -89,8 +130,87 @@ a {
   margin-bottom: 2rem;
 }
 
+// Blog archive item styling
+.archive__item {
+  border-bottom: 1px solid rgba($primary-color, 0.05);
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+// Table of contents
+.toc {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  border: 1px solid rgba($primary-color, 0.1);
+  padding: 1rem;
+  font-size: 0.85rem;
+  
+  .toc__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    a {
+      display: block;
+      padding: 0.2rem 0;
+      color: $text-color;
+      text-decoration: none;
+      
+      &:hover {
+        color: $primary-color;
+      }
+    }
+    
+    .active a {
+      color: $primary-color;
+      font-weight: bold;
+    }
+
+    ul {
+      margin-left: 1rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  header {
+    background: $primary-color;
+    color: #fff;
+    margin: -1rem -1rem 1rem -1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px 8px 0 0;
+    font-family: $serif-font;
+    font-weight: bold;
+  }
+
+  .nav__title {
+    background: transparent;
+    color: inherit;
+  }
+}
+
 // Footer
 .page__footer {
   background-color: transparent;
   border-top: 1px solid rgba(0,0,0,0.1);
+  color: mix($text-color, #000, 80%); // Darker footer text for readability
+
+  footer {
+    color: inherit;
+  }
+
+  a {
+    color: $primary-color;
+    &:hover {
+      color: darken($primary-color, 15%);
+    }
+  }
+
+  .page__footer-copyright {
+    color: mix($text-color, #000, 60%);
+  }
 }
