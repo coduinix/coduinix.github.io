@@ -25,18 +25,17 @@ permalink: /events
         &nbsp; <i class="fas fa-map-pin" aria-hidden="true"></i> {{ event.location }}
         </span>
       {% endif %}
+      {% if event.website %} 
+        <span class="page__meta-website">
+          &nbsp;<a href="{{ event.website }}" target="_blank" rel="noopener" title="Event website"><i class="fas fa-globe" aria-hidden="true"></i><span class="sr-only">Event website</span></a>
+        </span>
+      {% endif %}
+      {% if event.schedule %}
+        <span class="page__meta-schedule">
+          &nbsp;<a href="{{ event.schedule }}" target="_blank" rel="noopener" title="Schedule"><i class="fas fa-calendar-alt" aria-hidden="true"></i><span class="sr-only">Schedule</span></a>
+        </span>
+      {% endif %}
     </p>
-
-    {% if event.website or event.schedule %}
-      <p class="page__meta">
-        {% if event.website %}
-          <a href="{{ event.website }}" target="_blank" rel="noopener" title="Event website"><i class="fas fa-globe" aria-hidden="true"></i><span class="sr-only">Event website</span></a>&nbsp;
-        {% endif %}
-        {% if event.schedule %}
-          <a href="{{ event.schedule }}" target="_blank" rel="noopener" title="Schedule"><i class="fas fa-calendar-alt" aria-hidden="true"></i><span class="sr-only">Schedule</span></a>
-        {% endif %}
-      </p>
-    {% endif %}
 
     {% if event.talks %}
       <ul>
