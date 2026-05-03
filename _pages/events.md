@@ -8,9 +8,12 @@ permalink: /events
 <div class="entries-list">
 
 {% assign sorted_events = site.events | sort: 'start_date' | reverse %}
-{% for event in sorted_events %}
+{% assign events_by_year = sorted_events | group_by_exp: "event", "event.start_date | date: '%Y'" %}
+{% for year_group in events_by_year %}
+  <h2>{{ year_group.name }}</h2>
+  {% for event in year_group.items %}
   <div class="list__item">
-    <h2><a id="{{event.slug}}"></a>{{ event.title }}</h2>
+    <h3><a id="{{event.slug}}"></a>{{ event.title }}</h3>
     <p class="page__meta">
       {% if event.start_date %}
         <span class="page__meta-date">
@@ -23,6 +26,17 @@ permalink: /events
         </span>
       {% endif %}
     </p>
+
+    {% if event.website or event.schedule %}
+      <p class="page__meta">
+        {% if event.website %}
+          <a href="{{ event.website }}" target="_blank" rel="noopener" title="Event website"><i class="fas fa-globe" aria-hidden="true"></i><span class="sr-only">Event website</span></a>&nbsp;
+        {% endif %}
+        {% if event.schedule %}
+          <a href="{{ event.schedule }}" target="_blank" rel="noopener" title="Schedule"><i class="fas fa-calendar-alt" aria-hidden="true"></i><span class="sr-only">Schedule</span></a>
+        {% endif %}
+      </p>
+    {% endif %}
 
     {% if event.talks %}
       <ul>
@@ -46,5 +60,6 @@ permalink: /events
       </ul>
     {% endif %}
   </div>
+  {% endfor %}
 {% endfor %}
 </div>
