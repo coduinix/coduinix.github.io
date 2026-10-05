@@ -4,6 +4,9 @@ title: Articles
 permalink: /articles
 ---
 
+## 2026
+- Level up Your Java Streams with Gatherers. _Java Magazine (NLJUG)_, May 2026
+
 ## 2018
 - VAVR - Zet Java op z'n kop. _Java Magazine (NLJUG)_, October 2018 ([.pdf](/assets/pdf/VAVR%20-%20Java%20Magazine%20-%20NLJUG.pdf))
 
